@@ -1,14 +1,15 @@
-
 <!DOCTYPE html>
+<html lang="en">
 <head>
-	<script>
-	const btn = document.querySelector("[data-btn]")
-btn.addEventListener("click", () => {
+  <script type=text/javascript>
+  const btn = document.querySelector("[data-btn]")
+  
+  btn.addEventListener("click", () => {
   btn.classList.add("animating")
-})
-	</script>
-	<style>
-	body {
+  })
+  </script>
+  <style type=text/css>
+  body {
   background-color: white;
   min-height: 100vh;
   display: flex;
@@ -142,9 +143,7 @@ btn.addEventListener("click", () => {
     stroke-dashoffset: 0;
   }
 }
-	</style>
-	<link rel="stylesheet" href="styles.css">
-	<title>Submit Test</title>
+</style>
 </head>
 <body>
   <button class="btn" data-btn>Submit</button>
